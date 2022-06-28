@@ -1,0 +1,8 @@
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.csproj.AssemblyReference.cache
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.AssemblyInfoInputs.cache
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.AssemblyInfo.cs
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.csproj.CoreCompileInputs.cache
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.MvcApplicationPartsAssemblyInfo.cache
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.RazorAssemblyInfo.cache
+D:\C# Projects\Web\Site_Try\obj\Debug\net5.0\Site_Try.RazorAssemblyInfo.cs
