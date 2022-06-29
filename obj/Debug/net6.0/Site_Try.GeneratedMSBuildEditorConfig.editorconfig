@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Site_Try
 build_property.RootNamespace = Site_Try
-build_property.ProjectDir = d:\C# Projects\Web\Site_Try\
+build_property.ProjectDir = D:\C# Projects\Web\Site_Try\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\C# Projects\Web\Site_Try
+build_property.MSBuildProjectDirectory = D:\C# Projects\Web\Site_Try
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/C\# Projects/Web/Site_Try/Pages/Index.cshtml]
+[D:/C\# Projects/Web/Site_Try/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
