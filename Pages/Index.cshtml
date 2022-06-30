@@ -2,8 +2,20 @@
 @model Site_Try.Pages.IndexModel
 @{
 }
+<script>
+	function countRabbits() {
+		if (document.getElementById("nav-menu").style.visibility === 'visible') {
+			document.getElementById("nav-menu").style.visibility = 'collapse';
+		}
+		else {
+			document.getElementById("nav-menu").style.visibility = 'visible';
+		}
 
+
+	};
+</script>
 <html lang="en">
+
 
 <head>
 	<meta charset="UTF-8">
@@ -14,6 +26,7 @@
 </head>
 
 <body>
+
 	<div class="container">
 		<header class="header">
 			<div class="wrapper">
@@ -22,22 +35,21 @@
 						<img src="./image/Home Studio.svg" alt="АРХИТЕКТУРНАЯ МАСТЕРСКАЯ" class="header_logo_pic">
 					</a>
 				</div>
-
 				<nav class="header_nav">
 					<ul class="header_list">
 						<li class="header_item">
-							<a href="#!" class="header_link_en">En</a>
+							<a href="#!" class="header_link">En</a>
 						</li>
 
 						<li class="header_item">
-							<a href="#!" class="header_link_ru">Ru</a>
+							<a href="#!" class="header_link-ru">Ru</a>
 						</li>
 
 						<li class="header_item">
 							<a href="#!" class="header_link">Позвонить</a>
 						</li>
 						<li class="header_item">
-							<img src="./image/3 lines.png" alt="" class="header_link">
+							<input type="image" src="./image/3 lines.png" onclick="countRabbits()" alt="" class="header_link" id="header_nav-button">
 						</li>
 					</ul>
 				</nav>
@@ -45,38 +57,85 @@
 		</header>
 
 		<div class="outer_container">
+			
 			<h1 class="intro_title">АРХИТЕКТУРНАЯ<br>МАСТЕРСКАЯ</h1>
 
-			<h3 class="intro_subtitle">Cтроительные работы высоких стандартов качества,<br>
+			<h3 class="intro_subtitle">
+				Cтроительные работы высоких стандартов качества,<br>
 				разрабатываем и воплощаем дизайн-проект<br>
-				интерьера в уникальной стилистике</h3>
+				интерьера в уникальной стилистике
+			</h3>
+			
+			<div id="nav-menu" style="visibility:collapse;">
+				<svg width="300" height="550" class="nav-menu_rectangle">
+					<rect width="300" height="550" class="nav-menu_rectangle"></rect>
+				</svg>
+				<div class="header_nav-menu_div">
+					<ul class="header_nav-menu">
+						<li class="header_nav-menu_item">
+							<p>Меню</p>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>О нас</a>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>Услуги</a>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>Преимущества</a>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>Проекты</a>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>Команда</a>
+						</li>
+
+						<li class="header_nav-menu_item">
+							<a>Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 
 			<img src="./image/Image1.png" alt="" class="first_image">
 			<div class="first_text">
-				<div class="first_text_first_row_div">
+				<ul class="first_text_first_row_div">
 					<li class="first_text_first_row">Философия наших проектов</li>
 
-					<li class="first_text_first_row">Ваш дом идеально<br>
-						вписанный в пейзаж</li>
-				</div>
-				<div class="first_text_second_row_div">
-					<li class="first_text_second_row">Спроектированные нами дома, всегда<br>
+					<li class="first_text_first_row">
+						Ваш дом идеально<br>
+						вписанный в пейзаж
+					</li>
+				</ul>
+				<ul class="first_text_second_row_div">
+					<li class="first_text_second_row">
+						Спроектированные нами дома, всегда<br>
 						неповторимы и являются отражением<br>
 						своих владельцев. Сочетаем лучшие<br>
-						материалы и изысканный дизайн.</li>
+						материалы и изысканный дизайн.
+					</li>
 
-					<li class="first_text_second_row">Мы делаем проекты интерьеров,<br>экстерьеров,
+					<li class="first_text_second_row">
+						Мы делаем проекты интерьеров,<br>экстерьеров,
 						но никогда не показываем<br>
 						их эскизы или реализацию в публичном<br>
-						пространстве.</li>
-				</div>
+						пространстве.
+					</li>
+				</ul>
 			</div>
+
 			<img src="./image/Image2.png" alt="" class="second_image">
 			<div class="second_text">
 				<div class="second_text_first_row">
 					<p class="second_text_first_row_text">Наши услуги</p>
 				</div>
-				<div class="second_text_second_row">
+				<ul class="second_text_second_row">
 					<li class="second_text_second_row_list">
 						<div class="second_text_second_row_list_item">
 							<p class="second_text_second_row_num">01</p>
@@ -98,10 +157,9 @@
 							<p class="second_text_second_row_text">Дизайн интерьеров и экстерьеров</p>
 						</div>
 					</li>
-				</div>
+				</ul>
 			</div>
 		</div>
 	</div>
 </body>
-
 </html>
